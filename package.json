@@ -2,7 +2,7 @@
   "name": "portifolio-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://JoaoPirolo.github.io/portifolio-react.git",
+  "homepage": "https://JoaoPirolo.github.io/portifolio-react/",
   "dependencies": {
     "ajv": "^6.0.0",
     "bootstrap": "^4.0.0",
