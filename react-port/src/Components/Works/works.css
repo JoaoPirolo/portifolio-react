@@ -1,0 +1,124 @@
+#pagfacil{
+    background-image: url("../assets/super.jpg");
+    background-size: cover;
+}
+
+#dorkeasy{
+    background-position: -80px 10px;
+    background-image: url("../assets/dork.jpg");
+    background-size: cover;
+}
+
+#portifolio{
+    background-image: url("../assets/portifolio.jpg");
+    background-size: cover;
+    background-position: -120px;
+}
+#aluga{
+    background-image: url("../assets/aluga.jpg");
+    background-size: cover;
+}
+#homework{
+    background-image: url("../assets/homework.jpg");
+    background-size: cover;
+}
+#webt1{
+    background-image: url("../assets/webt.JPG");
+    background-size: cover;
+    
+}
+.cont-work{
+    background-size: cover;
+    background: -webkit-linear-gradient(#5e42a5, #32254f);
+	background: -o-linear-gradient(#32254f, #1e1c20);
+	background: -moz-linear-gradient(#32254f, #06030c);
+    background: linear-gradient(#32254f, #0b0a0e);
+    background-size: cover; 
+    height: auto; 
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-column-gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+    height: auto; 
+    background-size: cover;  
+    padding-top: 0px;
+    padding-bottom: 20px;  
+    align-items: center;
+    
+}
+.h2-work{
+    display: flex;
+    font-size: 2.5rem;
+    font-family: 'Satisfy', cursive;
+    color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    padding-top: 65px;
+}
+.flex-item{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    box-shadow: transparent;
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    transition: .5s;
+    margin-top: 40px;
+}
+.sob{
+    display: flex;
+    justify-content: space-between;
+    opacity: 0;
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(40, 36, 54, 0.8); 
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+
+.sob:hover{
+    opacity: 1;
+}
+
+.repositorio{
+    position: absolute;
+    text-align: center;
+    font-size: 17px;
+    bottom: 0;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+
+.repositorio:hover{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+@media screen and (max-width: 123em) {
+    .card-group {
+         width: 33.3%;
+     }
+}
+
+@media screen and (max-width: 456em) {
+    .card-group {
+         width: 50%;
+     }
+}
+
+@media screen and (max-width: 789em) {
+    .card-group {
+         width: 100%;
+     }
+}

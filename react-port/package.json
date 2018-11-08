@@ -1,0 +1,46 @@
+  {
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://JoaoPirolo.github.io/JoaoPirolo.io",
+
+  "dependencies": {
+    "ajv": "^6.0.0",
+    "npm": "^6.4.1",
+    "gh-pages": "^2.0.1",
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-scripts": "2.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "react",
+    "gulp",
+    "trabalho"
+  ],
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-react-easy": "^0.1.9",
+    "gulp-rename": "^1.4.0"
+  }
+}

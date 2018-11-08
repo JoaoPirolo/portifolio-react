@@ -1,0 +1,49 @@
+.formulario{
+    padding-top: 2rem;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: -webkit-linear-gradient(#5e42a5, #32254f);
+	background: -o-linear-gradient(#32254f, #1e1c20);
+	background: -moz-linear-gradient(#32254f, #06030c);
+	background: linear-gradient(#32254f, #0b0a0e);
+
+}
+
+.flex-itemm{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 65% !important;
+   
+
+}
+.form-control{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+.btn{
+    background-color: white; 
+}
+.btn:hover{
+    background-color: green;
+    color: white;
+    border-style: double;
+    border-color: white;
+}
+.input{
+    background-color: rgba(27, 17, 56, 0.918);
+}
+.h1-contato{
+    display: flex;
+    text-align: initial;
+    font-size: 2.5rem;
+    margin-top: .2rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Satisfy', cursive;
+    color: whitesmoke;
+}

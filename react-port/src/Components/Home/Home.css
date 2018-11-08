@@ -1,0 +1,97 @@
+.div-home {
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-size: cover; 
+    height: auto; 
+    background-image: url("./background.jpg");
+    background-position: 0 0;
+    background-size: 100% 150%;   
+}
+.cont-div{
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    max-width: 65%;
+    margin-left: 30px;
+    align-items: flex-start;
+    background-color: transparent;
+}
+.home-p{
+    font-size: 1rem;
+    margin-top: 0px;
+    margin-left:.5em;
+    font-family: AfterMidnite,sans-serif;
+    color: black;
+    text-align: start;
+    
+}
+
+.home-h1{
+    font-family: 'Dosis', sans-serif;
+    font-size: 0rem;
+}
+.h2-home{   
+    margin: 2rem;
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 3em;
+    color: white;
+}
+#desc{
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.2rem;
+ }
+
+.home-h3{
+    font-size: 2rem;
+    margin: 1rem;
+    margin-top: 1rem;
+    font-family:'Dosis', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+    }
+    @-moz-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+    }
+    @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+.fadeIn{
+    -webkit-animation: fadeIn 3s ease-in-out;
+    -moz-animation: fadeIn 3s ease-in-out;
+    -o-animation: fadeIn 3s ease-in-out;
+    animation: fadeIn 3s ease-in-out;
+}
+@import url('https://fonts.googleapis.com/css?family=Satisfy|Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+@media only screen and (max-device-width: 800px) {
+    .content-home{ 
+        width:600px;
+        height: 400px;
+             }
+   }
+
+@media only screen and (max-device-width: 700px) {
+       #div .content-home{ 
+            width:400px;
+            height: 400px;
+           font-size: 1em; }
+       }

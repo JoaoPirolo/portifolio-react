@@ -1,0 +1,88 @@
+.card-blogs{
+    background-image: url("../assets/background-blog.jpg");
+    background-size: cover; 
+    height: auto;
+}
+.card-group{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+   padding-bottom: 30px;
+}
+.caminho{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    border-radius: 10px;    
+}
+.caminho:hover{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .4s;
+    background-color: blue;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 400px;   
+    max-height: 550px;    
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.87);
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 15px;
+    
+}
+.p-b{
+    text-shadow: rgb(85, 76, 212) 0.1em 0.2em 0.5em;
+    font-size: 2rem;
+}
+.card-img-top{
+    height: 150px;
+    width: 320px;
+}
+.h1{
+    color: white;
+}
+.h2-blog{
+    display: flex;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Satisfy', cursive;
+    color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+.card:hover{
+    opacity: 1;
+}
+@media screen and (max-width: 123em) {
+    .card-group {
+         width: 33.3%;
+     }
+}
+
+@media screen and (max-width: 456em) {
+    .card-group {
+         width: 50%;
+     }
+}
+
+@media screen and (max-width: 789em) {
+    .card-group {
+         width: 100%;
+     }
+}
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Satisfy|Shadows+Into+Light');

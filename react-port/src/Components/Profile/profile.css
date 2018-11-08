@@ -1,0 +1,95 @@
+.itens{
+    display: flex;
+    max-width: 500px;
+    max-height: 800px;
+    padding-top: 0px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.profile{
+    padding-top: 60px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: -webkit-linear-gradient(#5e42a5, #32254f);
+	background: -o-linear-gradient(#32254f, #1e1c20);
+	background: -moz-linear-gradient(#32254f, #06030c);
+	background: linear-gradient(#32254f, #0b0a0e);
+}
+.lista{
+    margin-top: 30px;
+    flex-direction: column;
+    align-content: flex-start;
+}
+.my-photo{
+    display: block;
+    margin-top: 30px;
+    height: 50vh;
+    width: 50vh;
+    border-radius: 50%;
+    background-image: url("../assets/joaopirolo.png");
+    background-size: 100% 100%;
+    background-position: 0 0;
+}
+
+.lista {
+    font-family: 'Dosis', sans-serif;
+    color: #e8e5f0;
+}
+p{
+    color: #e8e5f0;
+    margin-top: 15px;
+    text-align: center;
+}
+.h3{
+    font-family: 'Satisfy', cursive;
+    color: whitesmoke;
+}
+.load{
+    justify-content: center;
+    text-align: center;
+    position: 0 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: red;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    border: 1px solid #f2e9e4;
+    cursor: pointer;
+    width: 260px;
+    border-radius: 40px;
+    height: 60px;
+    line-height: 38px;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+.load:hover{
+    -moz-transition-duration: .3s;
+    transition-delay: .3s;
+   
+    background-color: transparent;
+    color: #f2e9e4;
+}
+@media screen and (max-width: 1051px){
+    .profile, .lista{
+        margin-bottom: 0;
+    }
+}
+.h2-profile{
+    font-family: 'Dosis', monospace;
+    color: whitesmoke;
+    font-size: 2.5rem;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Satisfy|Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Dosis');

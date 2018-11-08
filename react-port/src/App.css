@@ -1,0 +1,79 @@
+
+.container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: rgb(51, 45, 45);
+}
+::-webkit-scrollbar {
+    width: 8px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: #2a3fa0;
+}
+.h2{
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Satisfy', cursive;
+    color: whitesmoke;
+   
+}
+.img{
+    max-width: 100px;
+    max-height:100px;
+    border-radius: 50%;
+}
+
+h4, p{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    color: #e8e5f0;
+}
+@media screen and (max-width: 1051px){
+    .perfil{
+        margin-bottom: 40px;
+    }
+}
+#redes-sociais{
+    display: inline-block;
+    list-style: none;
+    align-items: center;
+    padding-left: 0rem;
+}
+.rds{
+    padding-block-start: 0%;
+    display: inline-block;
+    padding-top: 30px;
+}
+
+.links {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.ancor {
+    display: inline-block;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+#midia-social {
+    margin-top: 0;
+    margin-left: 0;
+    background: #f3f3f3;
+}
+h5{
+    padding-left: 50px;
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    letter-spacing: 12px;
+    margin-top: 20px;
+    font-size: 16pt;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Dosis');

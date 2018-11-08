@@ -1,0 +1,50 @@
+.skill-cont{
+    background-repeat: no-repeat;
+    background: -webkit-linear-gradient(#32254f, #5e42a5);
+	background: -o-linear-gradient(#1e1c20,#32254f );
+	background: -moz-linear-gradient(#06030c,#32254f );
+	background: linear-gradient(#0b0a0e, #32254f);
+    background-size: 100% 100%;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   -ms-flex-direction: row;
+    align-content: center;
+    padding: 30px 80px 30px 50px;
+    background-color: transparent;
+}
+
+.skill{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(0,0,0,.4);
+    color: #fff;
+    margin: 4px;
+    cursor: pointer;
+    transition: all .3s!important;
+    text-transform: uppercase;
+    min-width: 80px;
+    font-size: 15px;
+}
+
+.skill:hover{
+    background-color: #fff;
+    color: #000;
+}
+.skill-h2{ 
+    padding-top: 60px;
+    margin-bottom: 50px;
+    height:0px;
+    background-size: 100% 100%;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Satisfy', cursive;
+    color: white;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Satisfy|Shadows+Into+Light');

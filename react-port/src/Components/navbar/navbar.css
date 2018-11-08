@@ -1,0 +1,38 @@
+.nav-item {
+    font-family: 'URW Chancery L', cursive;
+    font-size: 15px;
+    color: black;
+    padding: 0em;
+    display: flex;
+    
+}
+.bg{
+    background-color: rgb(61, 58, 54);
+    
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link
+{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    border-radius: 40px;
+    color: black;
+   
+}
+.navbar-light .navbar-nav .active>.nav-link:hover{
+    transform-style: flat;
+    transition-duration: .5s;
+    transition-delay: .2s;
+    background-color: rgb(255, 255, 255);
+}
+.navbar-brand{
+    height: 10px;
+    width: 10px;
+}
+.navbar-toggler{
+    color: azure;
+    background-color: aliceblue;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Satisfy|Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
