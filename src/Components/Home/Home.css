@@ -1,16 +1,18 @@
 .div-home {
+    padding-top: 60px;
     padding-bottom: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 10px;
     background-size: cover; 
-    height: auto; 
+    max-height: auto; 
     background-image: url("./background.jpg");
     background-position: 0 0;
-    background-size: 100% 150%;   
+    background-size: 100% 150%;
+   
+
 }
 .cont-div{
     display: flex;
@@ -73,12 +75,6 @@
     0% { opacity: 0; }
     100% { opacity: 1; }
     }
-.fadeIn{
-    -webkit-animation: fadeIn 3s ease-in-out;
-    -moz-animation: fadeIn 3s ease-in-out;
-    -o-animation: fadeIn 3s ease-in-out;
-    animation: fadeIn 3s ease-in-out;
-}
 @import url('https://fonts.googleapis.com/css?family=Satisfy|Shadows+Into+Light');
 @import url('https://fonts.googleapis.com/css?family=Dosis');
 

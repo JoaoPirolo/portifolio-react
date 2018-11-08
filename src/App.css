@@ -75,5 +75,10 @@ h5{
     margin-top: 20px;
     font-size: 16pt;
 }
-
+.fadeIn{
+    -webkit-animation: fadeIn 3s ease-in-out;
+    -moz-animation: fadeIn 3s ease-in-out;
+    -o-animation: fadeIn 3s ease-in-out;
+    animation: fadeIn 3s ease-in-out;
+}
 @import url('https://fonts.googleapis.com/css?family=Dosis');
